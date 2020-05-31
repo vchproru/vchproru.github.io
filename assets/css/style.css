@@ -1,0 +1,141 @@
+html {
+    background: #7B7575;
+}
+header {
+    margin: 0 auto;
+    margin-left: 8%;
+}
+r {
+    padding: 8px;
+    margin: 100px;
+    margin-top: 0;
+    background: #9B4FA8;
+    border-radius: 50px;
+    font-size: 30px;
+}
+g {
+    width: 289px;
+    height: 97px;
+    font-family: Gorditas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 97px;
+    color: #319BFE;
+}
+main {
+    width: 80%;
+}
+div {
+    padding: 3px;
+    width: 30%;
+    height: 200px;
+    background: #C4C4C4;
+    border-radius: 30px;
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+h3 {
+    display: inline;
+}
+.techno {
+    margin-left: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #000000;
+    background: #ED7FE2;
+    border-radius: 50px;
+    padding: 2px;
+    margin-top: 10px;
+}
+.name {
+    text-align: right;
+}
+img {
+    width: 30px;
+    margin-bottom: -7px;
+}
+like {
+    margin-left: 10px;
+}
+hr {
+    border: none;
+}
+.left {
+    margin-left: 250px;
+}
+.post {
+    margin-left: 20px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3 img {
+    width: 20px;
+    margin-top: -10px;
+}
+button {
+    background: #B15BDA;
+    border-radius: 50px;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 51%;
+}
+.submit {
+    background: #38C17F;
+    margin-left: 40%;
+}
+footer {
+    background: #656262;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    height: 140px;;
+}
+copyright {
+    color: #FAFE31;
+    font-family: Gorditas;
+    font-size: 40px;
+    margin-left: 45%;
+}
+p {
+    width: 80%;
+    margin: 25px;
+}
+@media screen and (max-width: 610px) {
+    header {
+        margin: 0;
+        text-align: center;
+    }
+    r {
+        margin: 0;
+        font-size: 19px;
+        padding: 5px;
+    }
+    g {
+        font-size: 30px;
+    }
+    .left {
+        margin-left: 30px;
+    }
+    div {
+        margin-left: 30px;
+        width: 100%;
+    }
+    button, .submit {
+        font-size: 15px;
+        margin-left: 40%;
+    }
+    .submit {
+        margin-left: 30%;
+    }
+    copyright {
+        margin-left: 31%;
+    }
+}
